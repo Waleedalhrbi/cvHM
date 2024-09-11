@@ -1,0 +1,131 @@
+.continer{
+     font-family: Arial, sans-serif;
+    display: flex;
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.left {
+    background-color: #163853;
+    padding: 75px;
+    color: white;
+}
+.left ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position:inside;
+}
+
+.left hr{
+    border: none;
+    border-top: 2px solid #ffffff;                 
+    margin-left: 0;
+}
+
+.left .contactInfo h2{
+    padding-top: 40px;
+}
+
+.left h2{
+    padding-top: 20px;
+}
+
+.imgP img{
+    border-radius: 50%;
+}
+
+.right{
+    padding-left: 40px;
+    color: #6a666e;
+}
+
+
+.right h2{
+    padding-top: 40px;
+    color: #1c394d;
+}
+.right hr{
+    border: none;
+    border-top: 2px solid #1c394d; 
+    width: 80%;                 
+    margin-left: 0;
+}
+.right .profile h2{
+    padding-top: 50px;
+}
+
+.right .profile p{
+    width: 70%;
+    color: #a4a3a5;
+
+}
+.name h2{
+    color: #545454;
+}
+
+.right .name span{
+    color: #1c394d;
+    font-weight:300;
+}
+
+
+.right .name p{
+    color: #545454;
+    font-size:large;
+}
+
+.right .name hr{
+    border: none;
+    border-top: 6px solid #1c394d; 
+    width: 9%;                 
+    margin-left: 0;
+}
+
+.right .workExperience .experience li{
+    width: 70%;
+}
+
+.right .workExperience .experience ul{
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position:inside;
+}
+
+.reference .referenceinfo{
+    display: flex;
+}
+.reference .referenceinfo ul{
+    list-style: none;
+}
+
+
+.reference .referenceinfo .harp{
+    margin-left: 130px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .continer {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        flex: 1 1 100%;
+    }
+    .reference .referenceinfo {
+        display: block;
+    }
+
+    .reference .referenceinfo ul {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .reference .referenceinfo .harp {
+        margin-left: 0;
+    }
+}
